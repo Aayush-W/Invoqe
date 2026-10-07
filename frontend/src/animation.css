@@ -1,0 +1,4 @@
+@keyframes product-in{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+@keyframes cart-bump{0%,100%{transform:scale(1)}35%{transform:scale(1.28) rotate(-7deg)}65%{transform:scale(.94) rotate(3deg)}}
+@keyframes add-pop{50%{transform:scale(.87)}100%{transform:scale(1)}}
+.product{animation:product-in .45s both}.product:nth-child(2){animation-delay:.04s}.product:nth-child(3){animation-delay:.08s}.product:nth-child(4){animation-delay:.12s}.product:nth-child(5){animation-delay:.16s}.product:nth-child(6){animation-delay:.2s}.yellow{transition:transform .16s,box-shadow .16s}.yellow:hover{transform:translateY(-1px);box-shadow:0 4px 10px #b7900033}.yellow:active{animation:add-pop .34s ease}.cartIcon:active,.cartIcon.cartPulse{animation:cart-bump .62s ease}.cartIcon{transition:transform .2s}
